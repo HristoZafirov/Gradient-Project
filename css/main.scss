@@ -100,6 +100,7 @@ $colors: (
 		button {
 				width: 240px;
 				height: 50px;
+				border: 0;
 				border-radius: 999px;
 				color: color(darkblue);
 				font: 22px/55px 'JosefinR';
@@ -111,6 +112,7 @@ $colors: (
 
 				&:hover {
 						animation: pop4 0.4s ease-out 0s 1 normal;
+						outline: rgba(255, 255, 255, 0.1);
 				}
 		}
 }
@@ -199,13 +201,31 @@ $colors: (
 							border: 2px solid #4b4b4b;
 							border-radius: 999px;
 						}
-						.text {
+						.text, .text2 {
+							position: relative;
 							padding-top: 10px;
 							width: 75%;
 							font-family: 'JosefinR';
 							text-indent: 15px;
 							span {
 									color: #d642d7;
+									font-weight: bold;
+							}
+							&:before {
+								content: '#1';
+								position: absolute;
+								top: -70px;
+								right: 0;
+								opacity: 0.2;
+								color: #333;
+								font-family: sans-serif;
+								font-size: 6em;
+							}
+						}
+
+						.text2 {
+							&:before {
+								content: '#2';
 							}
 						}
 				}
