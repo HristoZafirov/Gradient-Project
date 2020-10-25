@@ -2,6 +2,7 @@ body, html {
   padding: 0;
   margin: 0;
   border: 0;
+  outline: 0;
 }
 
 .left {
@@ -45,27 +46,27 @@ body, html {
   background-repeat: no-repeat;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-top: 150px;
+  padding-top: 300px;
   position: relative;
   overflow: hidden;
 }
 
 .container h1 {
   text-align: center;
-  letter-spacing: 3px;
-  font-size: 5em;
+  letter-spacing: 10px;
+  font-size: 10em;
   color: white;
   font-family: 'JosefinR';
 }
 
 .container p {
   font-family: 'JosefinR';
-  font-size: 17px;
+  font-size: 40px;
   color: white;
   text-indent: 25px;
-  width: 600px;
+  width: 1100px;
   margin: 40px auto;
-  line-height: 22px;
+  line-height: 40px;
 }
 
 .container .circle {
@@ -76,8 +77,8 @@ body, html {
   /* Chrome10-25,Safari5.1-6 */
   background: -webkit-gradient(linear, left bottom, left top, from(#20aef3), to(#ca06ca));
   background: linear-gradient(0deg, #20aef3 0%, #ca06ca 100%);
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
   top: 50%;
   left: -125px;
   -webkit-clip-path: circle(50% at 50% 50%);
@@ -94,8 +95,8 @@ body, html {
   background: linear-gradient(0deg, #20aef3 0%, #ca06ca 100%);
   -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
           clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
   top: 12%;
   right: -60px;
   -webkit-transform: rotateZ(-15deg);
@@ -104,17 +105,17 @@ body, html {
 }
 
 .container button {
-  width: 240px;
-  height: 50px;
+  width: 400px;
+  height: 100px;
   border: 0;
   border-radius: 999px;
   color: #4149e4;
-  font: 22px/55px 'JosefinR';
+  font: 40px/100px 'JosefinR';
   letter-spacing: 2px;
   margin: auto;
   display: block;
-  -webkit-transform: translateY(50px);
-          transform: translateY(50px);
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
   cursor: pointer;
 }
 
@@ -126,7 +127,7 @@ body, html {
 
 .cards {
   width: 100%;
-  height: 550px;
+  height: 750px;
   padding: 120px 60px 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -157,34 +158,38 @@ body, html {
 .cards .wrapper .card .bug {
   display: block;
   margin: auto;
+  width: 120px;
+  height: 100px;
 }
 
 .cards .wrapper .card h1 {
   text-align: center;
-  font-size: 2em;
+  font-size: 4em;
   color: white;
   font-family: 'JosefinL';
+  margin-top: 40px;
 }
 
 .cards .wrapper .card .text {
   color: white;
-  font-size: 1em;
+  font-size: 1.6em;
   font-family: 'JosefinR';
   text-indent: 20px;
+  padding: 0 20px;
 }
 
 .cards .wrapper .card button {
   display: block;
   cursor: pointer;
-  width: 180px;
-  height: 50px;
+  width: 240px;
+  height: 70px;
   margin: auto;
-  font: 22px/55px 'JosefinR';
+  font: 30px/55px 'JosefinR';
   letter-spacing: 2px;
   color: #4149e4;
   background: white;
   border: 0;
-  border-radius: 25px;
+  border-radius: 999px;
   -webkit-transform: translateY(20px);
           transform: translateY(20px);
 }
@@ -197,7 +202,7 @@ body, html {
 .avatars {
   background-color: #e6e6e6;
   width: 100%;
-  height: 55vh;
+  height: 600px;
   margin-top: 150px;
 }
 
@@ -215,17 +220,20 @@ body, html {
 }
 
 .avatars .wrapper .col-50 img {
-  width: 20%;
+  width: 25%;
   border: 2px solid #4b4b4b;
   border-radius: 999px;
+  box-sizing: border-box;
 }
 
 .avatars .wrapper .col-50 .text, .avatars .wrapper .col-50 .text2 {
   position: relative;
-  padding-top: 10px;
+  padding: 10px 30px 0 30px;
   width: 75%;
   font-family: 'JosefinR';
+  font-size: 34px;
   text-indent: 15px;
+  box-sizing: border-box;
 }
 
 .avatars .wrapper .col-50 .text span, .avatars .wrapper .col-50 .text2 span {
@@ -236,7 +244,7 @@ body, html {
 .avatars .wrapper .col-50 .text:before, .avatars .wrapper .col-50 .text2:before {
   content: '#1';
   position: absolute;
-  top: -70px;
+  top: -100px;
   right: 0;
   opacity: 0.2;
   color: #333;
@@ -253,7 +261,7 @@ body, html {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 90vh;
+  height: 1200px;
   position: relative;
 }
 
@@ -268,9 +276,9 @@ body, html {
   background: linear-gradient(0deg, #20aef3 0%, #ca06ca 100%);
   -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
           clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-  width: 250px;
-  height: 250px;
-  bottom: -8%;
+  width: 500px;
+  height: 500px;
+  bottom: 5%;
   left: -60px;
   -webkit-transform: rotateZ(15deg);
           transform: rotateZ(15deg);
@@ -291,29 +299,31 @@ body, html {
 
 .threats .wrapper .col-50 img {
   width: 100%;
+  -webkit-transform: translate3d(-150px, 100px, 0);
+          transform: translate3d(-150px, 100px, 0);
 }
 
 .threats .wrapper .col-50 h1 {
   color: white;
   font-family: 'JosefinR';
-  font-size: 3em;
+  font-size: 6em;
 }
 
 .threats .wrapper .col-50 p {
   color: white;
   font-family: 'JosefinL';
-  font-size: 2em;
+  font-size: 4em;
 }
 
 .threats .wrapper .col-50 button {
   cursor: pointer;
   display: block;
   margin: auto;
-  width: 240px;
-  height: 50px;
+  width: 450px;
+  height: 120px;
   border-radius: 999px;
   border: 0;
-  font: 1.4em/55px 'JosefinR';
+  font: 40px/55px 'JosefinR';
   letter-spacing: 2px;
   color: #165bc1;
   -webkit-transform: translateY(30px);
@@ -327,13 +337,13 @@ body, html {
 
 .contacts {
   width: 100%;
-  height: 90vh;
+  height: 800px;
 }
 
 .contacts .wrapper {
   width: 100%;
   height: 100%;
-  padding: 120px 150px;
+  padding: 50px 150px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -345,23 +355,23 @@ body, html {
 
 .contacts .wrapper .col-40 form {
   background-color: #e6e6e6;
-  width: 300px;
-  height: 405px;
+  width: 500px;
+  height: 600px;
   padding: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 20px;
   position: relative;
   overflow: hidden;
-  -webkit-transform: translateX(80px);
-          transform: translateX(80px);
+  -webkit-transform: translateX(200px);
+          transform: translateX(200px);
   -webkit-box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
           box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .contacts .wrapper .col-40 form input[type="text"], .contacts .wrapper .col-40 form textarea {
-  width: 260px;
-  height: 30px;
+  width: 460px;
+  height: 60px;
   border-radius: 6px;
   border: 0;
   margin: 15px 0;
@@ -370,12 +380,12 @@ body, html {
           box-sizing: border-box;
   text-indent: 10px;
   color: #4b4b4b;
-  font-size: 0.9em;
+  font-size: 26px;
   font-family: 'JosefinR';
 }
 
 .contacts .wrapper .col-40 form textarea {
-  height: 90px;
+  height: 190px;
   resize: none;
   padding: 10px;
   text-indent: 0;
@@ -384,16 +394,16 @@ body, html {
 .contacts .wrapper .col-40 form input[type="submit"] {
   background: -webkit-gradient(linear, left top, right top, from(#a740d7), to(#d740d7));
   background: linear-gradient(left, #a740d7 0%, #d740d7 100%);
-  width: 180px;
-  height: 40px;
+  width: 280px;
+  height: 50px;
   display: block;
-  margin: 15px auto 0;
+  margin: 10px auto 0;
   border: 0;
   border-radius: 10px;
-  padding: 5px 0 0;
+  padding: 6px 0 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 1.4em;
+  font-size: 1.7em;
   color: white;
   font-family: 'JosefinR';
   letter-spacing: 2px;
@@ -426,7 +436,8 @@ body, html {
 
 .contacts .wrapper .col-60 .email, .contacts .wrapper .col-60 .phone, .contacts .wrapper .col-60 .portfolio {
   text-indent: 60px;
-  line-height: 2.5em;
+  font-size: 50px;
+  line-height: 50px;
   position: relative;
 }
 
@@ -467,7 +478,7 @@ body, html {
 }
 
 .contacts .wrapper .col-60 h1 {
-  font-size: 2.5em;
+  font-size: 4.5em;
 }
 
 .contacts .wrapper .col-60 a {
@@ -483,8 +494,8 @@ body, html {
   position: relative;
   list-style-type: none;
   height: 50px;
-  -webkit-transform: translate3d(-30px, 100px, 0);
-          transform: translate3d(-30px, 100px, 0);
+  -webkit-transform: translate3d(400px, 60px, 0) scale(1.7);
+          transform: translate3d(400px, 60px, 0) scale(1.7);
 }
 
 .contacts .wrapper .col-60 ul li {
@@ -499,9 +510,9 @@ body, html {
 
 .footer {
   width: 100%;
-  height: 55vh;
+  height: 750px;
   background: radial-gradient(#1e94eb, #165ec3);
-  padding: 30px 100px 0;
+  padding: 80px 100px 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -509,7 +520,7 @@ body, html {
 .footer h1, .footer p {
   font-family: 'JosefinL';
   letter-spacing: 8px;
-  font-size: 3.5em;
+  font-size: 120px;
   text-align: center;
   color: white;
   -webkit-box-sizing: border-box;
@@ -517,15 +528,15 @@ body, html {
 }
 
 .footer p {
-  font-size: 1.2em;
+  font-size: 40px;
   letter-spacing: 0;
-  -webkit-transform: translateY(-20px);
-          transform: translateY(-20px);
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
 }
 
 .footer form {
   width: 60%;
-  height: 40px;
+  height: 100px;
   display: block;
   margin: auto;
 }
@@ -533,26 +544,26 @@ body, html {
 .footer form .col-70, .footer form .col-30 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  height: 40px;
+  height: 100px;
   border: 0;
   font-family: 'JosefinR';
 }
 
 .footer form .col-70 {
   width: 70%;
-  border-radius: 10px 0 0 10px;
+  border-radius: 20px 0 0 20px;
   color: #4b4b4b;
-  font-size: 1em;
+  font-size: 34px;
   text-indent: 10px;
   padding: 4px 0 0;
 }
 
 .footer form .col-30 {
   width: 30%;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 20px 20px 0;
   background: linear-gradient(45deg, #a740d7 0%, #d740d7 100%);
   color: white;
-  font-size: 1.2em;
+  font-size: 34px;
   padding: 5px 0 0;
   letter-spacing: 2px;
   cursor: pointer;
@@ -573,12 +584,13 @@ body, html {
 
 .footer ul li {
   text-align: center;
-  margin: 5px 0;
+  margin: 15px 0;
 }
 
 .footer ul li a {
   text-decoration: none;
   color: white;
+  font-size: 30px;
   font-family: 'JosefinR';
   -webkit-transition: color 0.2s linear;
   transition: color 0.2s linear;
@@ -708,3 +720,285 @@ body, html {
   }
 }
 /*# sourceMappingURL=main.css.map */
+
+@media only screen and (max-width: 1440px) {
+  .container {
+    height: 900px;
+    padding-top: 150px;
+  }
+  .container h1 {
+    font-size: 6em;
+  }
+  .container p {
+    font-size: 28px;
+    width: 800px;
+    line-height: 28px;
+  }
+  .container .pentagon {
+    width: 300px;
+    height: 300px;
+  }
+  .container .circle {
+    width: 300px;
+    height: 300px;
+  }
+  .container button {
+    width: 300px;
+    height: 70px;
+    font: 28px/70px 'JosefinR';
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  .cards {
+    height: 500px;
+  }
+  .cards .wrapper .card .bug {
+    width: 70px;
+    height: 60px;
+  }
+  .cards .wrapper .card {
+    padding: 30px 25px 0px;
+  }
+  .cards .wrapper .card h1 {
+    font-size: 2em;
+  }
+  .cards .wrapper .card .text {
+    padding: 0 0;
+    font-size: 16px;
+  }
+  .cards .wrapper .card button {
+    width: 150px;
+    height: 50px;
+    font: 20px/50px 'JosefinR';
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  .avatars {
+    height: 500px;
+  }
+  .avatars .wrapper .col-50 .text, .avatars .wrapper .col-50 .text2 {
+    font-size: 26px;
+  }
+  .threats {
+    height: 800px;
+  }
+  .threats .wrapper .col-50 h1 {
+    font-size: 50px;
+  }
+  .threats .wrapper .col-50 p {
+    font-size: 40px;
+  }
+  .threats .wrapper .col-50 img {
+    -webkit-transform: translate3d(-15px, 75px, 0);
+  }
+  .threats::before {
+    width: 300px;
+    height: 300px;
+  }
+  .threats .wrapper .col-50 button {
+    width: 350px;
+    height: 80px;
+    font: 30px/81px 'JosefinR';
+  }
+  .contacts {
+    height: 700px;
+  }
+  .contacts .wrapper .col-60 h1 {
+    font-size: 3.5em;
+  }
+  .contacts .wrapper .col-60 .email,
+  .contacts .wrapper .col-60 .phone,
+  .contacts .wrapper .col-60 .portfolio {
+    font-size: 34px;
+  }
+  .contacts .wrapper .col-60 ul {
+    -webkit-transform: translate3d(60px, 60px, 0) scale(1.3);
+            transform: translate3d(60px, 60px, 0) scale(1.3);
+  }
+  .contacts .wrapper .col-40 form {
+    width: 375px;
+    height: 535px;
+    -webkit-transform: translateX(120px);
+            transform: translateX(120px);
+  }
+  .contacts .wrapper .col-40 form input[type="text"],
+  .contacts .wrapper .col-40 form textarea {
+    width: 335px;
+    height: 50px;
+  }
+  .contacts .wrapper .col-40 form textarea {
+    height: 150px;
+  }
+  .footer {
+    height: 565px;
+    padding: 30px 100px 0;
+  }
+  .footer h1 {
+    font-size: 90px;
+  }
+  .footer p {
+    font-size: 21px;
+  }
+  .footer form .col-30,
+  .footer form .col-70 {
+    height: 60px;
+    font-size: 24px;
+  }
+  .footer ul {
+    margin: 30px auto 0;
+  }
+  .footer ul li a {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    height: 800px;
+    padding-top: 130px;
+  }
+  .container h1 {
+    font-size: 5em;
+  }
+  .container p {
+    font-size: 24px;
+    width: 700px;
+    line-height: 24px;
+  }
+  .container .pentagon {
+    width: 200px;
+    height: 200px;
+  }
+  .container .circle {
+    width: 250px;
+    height: 250px;
+  }
+  .container button {
+    width: 300px;
+    height: 70px;
+    font: 28px/70px 'JosefinR';
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  .cards {
+    height: 400px;
+  }
+  .cards .wrapper .card .bug {
+    width: 50px;
+    height: 40px;
+  }
+  .cards .wrapper .card {
+    padding: 20px 20px 0px;
+  }
+  .cards .wrapper .card h1 {
+    font-size: 27px;
+    margin-top: 20px;
+  }
+  .cards .wrapper .card .text {
+    padding: 0 0;
+    font-size: 12px;
+  }
+  .cards .wrapper .card button {
+    width: 100px;
+    height: 30px;
+    font: 14px/30px 'JosefinR';
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  .avatars {
+    height: 400px;
+  }
+  .avatars .wrapper .col-50 .text, .avatars .wrapper .col-50 .text2 {
+    font-size: 18px;
+  }
+  .threats {
+    height: 700px;
+  }
+  .threats .wrapper {
+    padding: 100px;
+  }
+  .threats .wrapper .col-50 h1 {
+    font-size: 50px;
+  }
+  .threats .wrapper .col-50 p {
+    font-size: 40px;
+  }
+  .threats .wrapper .col-50 img {
+    -webkit-transform: translate3d(-15px, 75px, 0);
+  }
+  .threats::before {
+    width: 300px;
+    height: 300px;
+  }
+  .threats .wrapper .col-50 button {
+    width: 350px;
+    height: 80px;
+    font: 30px/81px 'JosefinR';
+    -webkit-transform: translate3d(250px, 50px, 0);
+            transform: translate3d(250px, 50px, 0);
+  }
+  .contacts {
+    height: 550px;
+    padding-top: 30px;
+    box-sizing: border-box;
+  }
+  .contacts .wrapper {
+    padding: 50px 100px;
+  }
+  .contacts .wrapper .col-60 h1 {
+    font-size: 2.2em;
+  }
+  .contacts .wrapper .col-60 .email,
+  .contacts .wrapper .col-60 .phone,
+  .contacts .wrapper .col-60 .portfolio {
+    font-size: 24px;
+  }
+  .contacts .wrapper .col-60 ul {
+    display: none;
+  }
+  .contacts .wrapper .col-40 form {
+    width: 315px;
+    height: 390px;
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+  }
+  .contacts .wrapper .col-40 form input[type="text"],
+  .contacts .wrapper .col-40 form textarea {
+    width: 275px;
+    height: 30px;
+    font-size: 20px;
+  }
+  .contacts .wrapper .col-40 form textarea {
+    height: 100px;
+  }
+  .contacts .wrapper .col-40 form input[type="submit"] {
+    width: 220px;
+    height: 40px;
+    margin-top: 0;
+    font-size: 24px;
+  }
+  .footer {
+    height: 450px;
+    padding: 20px 100px 0;
+  }
+  .footer h1 {
+    font-size: 80px;
+  }
+  .footer p {
+    font-size: 19px;
+  }
+  .footer form .col-30,
+  .footer form .col-70 {
+    height: 50px;
+    font-size: 18px;
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  .footer ul {
+    margin: 0px auto 0px;
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  .footer ul li a {
+    font-size: 18px;
+  }
+}
