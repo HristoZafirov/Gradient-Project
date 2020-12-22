@@ -112,6 +112,7 @@ body, html {
   border: 0;
   border-radius: 999px;
   color: #4149e4;
+  background-color: #eee;
   font: 40px/100px 'JosefinR';
   letter-spacing: 2px;
   margin: auto;
@@ -348,6 +349,7 @@ body, html {
   width: 450px;
   height: 120px;
   border-radius: 999px;
+  background-color: #eee;
   border: 0;
   font: 40px/55px 'JosefinR';
   letter-spacing: 2px;
@@ -1493,6 +1495,7 @@ body, html {
   .avatars .wrapper .col-50 .text,
   .avatars .wrapper .col-50 .text2 {
     font-size: 16px;
+    padding: 10px 15px 0 30px;
   }
   .threats {
     height: 600px;
